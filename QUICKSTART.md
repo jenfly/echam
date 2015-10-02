@@ -13,6 +13,7 @@ configuration script:
 ```
 module load intel/intel-15
 module load netcdf/4.3.2/intel-15
+module load intel/impi/4.0
 ./configure --prefix=/home/jwalker/echambuild CC=icc FC=ifort F77=ifort CXX=icpc
 ```
 
