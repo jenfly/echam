@@ -16,3 +16,8 @@ module load netcdf/4.3.2/intel-15
 ./configure --prefix=/home/jwalker/echambuild CC=icc FC=ifort F77=ifort CXX=icpc
 ```
 
+Compile the source code:
+```
+make
+```
+
